@@ -29,7 +29,7 @@
     letter-spacing: .05px;
 
     img {
-        height: 30px;
+        height: 50px;
     }
 }
 
@@ -213,12 +213,22 @@
 
   }
 }
+.headroom--pinned {
+    .nav-link {
+        color: $dark!important;
+    }
+}
+
+.headroom--top {
+    .nav-link {
+        color: $white!important;
+    }
+}
 
 @include media-breakpoint-up(md) {
     .navbar-transparent {
         .navbar-nav {
             .nav-link {
-                color: $navbar-dark-color;
 
                 @include hover-focus {
                     color: $navbar-dark-hover-color;

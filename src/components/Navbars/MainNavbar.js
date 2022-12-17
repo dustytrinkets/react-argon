@@ -39,7 +39,7 @@ import {
   UncontrolledTooltip
 } from "reactstrap";
 
-class DemoNavbar extends React.Component {
+class MainNavbar extends React.Component {
   componentDidMount() {
     let headroom = new Headroom(document.getElementById("navbar-main"));
     // initialise
@@ -268,10 +268,10 @@ class DemoNavbar extends React.Component {
                       target="_blank"
                     >
                       <span className="btn-inner--icon">
-                        <i className="fa fa-cloud-download mr-2" />
+                        <i className="fa fa-comment mr-2" />
                       </span>
                       <span className="nav-link-inner--text ml-1">
-                        Download
+                        Contacto
                       </span>
                     </Button>
                   </NavItem>
@@ -285,4 +285,4 @@ class DemoNavbar extends React.Component {
   }
 }
 
-export default DemoNavbar;
+export default MainNavbar;

@@ -41,7 +41,7 @@ import MainNavbar from "components/Navbars/MainNavbar.js";
 import CardsFooter from "components/Footers/CardsFooter.js";
 
 // index page sections
-import Download from "./IndexSections/Download.js";
+import Download from "../IndexSections/Download.js";
 
 class Landing extends React.Component {
   state = {};
@@ -73,7 +73,7 @@ class Landing extends React.Component {
                       <p className="lead text-white">
                             Intercambio cultural. Cooperación. Turismo solidario. Campamento en Abene, Casamance, Senegal
                       </p>
-                      <div className="btn-wrapper">
+                      {/* <div className="btn-wrapper">
                         <Button
                           className="btn-icon mb-3 mb-sm-0"
                           color="info"
@@ -96,7 +96,7 @@ class Landing extends React.Component {
                             Download React
                           </span>
                         </Button>
-                      </div>
+                      </div> */}
                     </Col>
                   </Row>
                 </div>
